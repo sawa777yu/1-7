@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1{
+  padding-top: 20px;
+  padding-left: 20px;
+  /*answerではここはpaddingのいでの指定だった。
+  要素は基本的に右上から表記がされるのでこの程度の短い文章であれば
+  右側下側には影響は出ないのでわざわざ上左で指定をしなくてもいい*/
+  color: gray;
+}
+
+.site-box{
+  width: 840px;
+  margin: 20px auto 50px;
+}
+
+.site-item{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+
+/*site-boxやsite-bottomに関してmarginとpaddingの指定の仕方がanswerと違っているが
+この問題の場合だと結果は同じなので問題はないと思われる。*/
